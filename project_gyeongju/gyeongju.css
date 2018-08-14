@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@charset "utf-8"; 
+
+
+#wrap{width: 1400px; height: 1200px; margin: 0 auto;}
+.bd{width: 800px; height: 1200px; margin: 0 auto;}
+
+
+.header{position: relative; top: 30px; overflow: hidden; width: 800px; height: 300px;}
+
+.header>.topbanr{display: block; position: absolute;width: 800px; height: 300px; font-size: 40px; font-weight: 700; text-align: center; line-height: 300px; background-image: url(../project_gyeongju/img/title_banr.JPG);background-size: cover; background-position: center;}
+
+.header>.topbanr:hover{width: 800px; height: 300px;background-image: url(img/
+img/title_banr.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s;opacity: 0.7;}
+
+p.filter{position: absolute; width: 800px; height: 300px; color: white;  font-size: 50px; line-height: 300px;font-family: 'Song Myung';text-align: center; background-color: rgba(40,40,40,1); }
+
+/*
+div.left{overflow: hidden; width: 150px; height: 400px;}
+
+div.section>div.left>p.tower{display: block; width: 150px; height: 400px; position: absolute; top: 350px; background-image: url(../project_gyeongju/img/chum.JPG); background-position: center; background-size: cover;}
+
+div.section>div.left>p.tower:hover{width: 150px; height: 400px; background-image: url(../project_gyeongju/img/chum.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s; opacity:0.7;}
+
+div.section>div.left>p.filter_tower{position: absolute; top: 350px; width: 150px; height: 400px; background-color: rgba(40,40,40,1);}*/
+
+.left{position: absolute; top: 350px; overflow: hidden; width: 150px; height: 400px;}
+
+.left>.tower{display: block; position: absolute;width: 150px; height: 400px; font-size: 40px; font-weight: 700; text-align: center; line-height: 400px; background-image: url(../project_gyeongju/img/chum.JPG);background-size: cover; background-position: center;}
+
+.left>.tower:hover{width: 150px; height: 400px;background-image: url(../project_gyeongju/img/chum.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s;opacity: 0.7;}
+
+p.filter_tower{position: absolute; width: 150px; height: 400px; color: white;  font-size: 50px; line-height: 400px;font-family: 'Song Myung';text-align: center; background-color: rgba(40,40,40,1); }
+
+
+.center{position: absolute; top: 350px; left: 535px;  overflow: hidden; width: 300px; height: 400px;}
+
+.center>.pizza{display: block; position: absolute; width: 300px; height: 400px; font-size: 40px; font-weight: 700; text-align: center; line-height: 400px; background-image: url(../project_gyeongju/img/pizza_3.JPG); background-size: cover; background-position: center;}
+
+.center>.pizza:hover{width: 300px; height: 400px;background-image: url(../project_gyeongju/img/pizza_3.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s;opacity: 0.6;}
+
+p.filter_pizza{position: absolute; width: 300px; height: 400px; color: white;  font-size: 50px; line-height: 400px;font-family: 'Song Myung';text-align: center; background-color: rgba(40,40,40,1); }
+
+
+
+
+.right{position: absolute; top: 350px; left: 860px;  overflow: hidden; width: 300px; height: 400px;}
+
+.right>.dong{display: block; position: absolute; width: 300px; height: 400px; font-size: 40px; font-weight: 700; text-align: center; line-height: 400px;background-image: url(../project_gyeongju/img/dong.JPG); background-size: cover; background-position: center;}
+
+.right>.dong:hover{width: 300px; height: 400px;background-image: url(../project_gyeongju/img/dong.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s;opacity: 0.7;}
+
+p.filter_dong{position: absolute; width: 300px; height: 400px; color: white;  font-size: 50px; line-height: 400px;font-family: 'Song Myung';text-align: center; background-color: rgba(40,40,40,1); }
+
+
+.btm>.btm_lft{position: absolute; top: 785px;  overflow: hidden; width: 300px; height: 400px;}
+
+.btm_lft>.dim{display: block; position: absolute; width: 300px; height: 400px; font-size: 40px; font-weight: 700; text-align: center; line-height: 400px;background-image: url(../project_gyeongju/img/dim.JPG); background-size: cover; background-position: center;}
+
+.btm_lft>.dim:hover{width: 300px; height: 400px;background-image: url(../project_gyeongju/img/dim.JPG); background-position: center; transform: scale(1.2); transition:0.5s ease-in 0s;opacity: 0.6;}
+
+p.filter_dim{position: absolute; width: 300px; height: 400px; color: white;  font-size: 50px; line-height: 400px;font-family: 'Song Myung';text-align: center; background-color: rgba(40,40,40,1); }
+
+
+
+
+
+
+
+

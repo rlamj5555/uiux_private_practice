@@ -1,0 +1,45 @@
+@charset "utf-8"; 
+
+#wrap{width: 1400px; height:800px; margin: 0 auto;background-color: #ebbec1;}
+
+#wrap>div.bd{ width: 1200px; height:800px;margin: 0 auto; background-image: url(img/leaf_bg.png); background-size: contain; background-position: center; background-repeat:repeat-y;}
+
+.header>.title{display: block;position: relative; top: 20px; left: 450px; width: 300px; height: 130px; text-indent: -9999px; background-image: url(img/title_hes.png); background-position: center; background-size: cover;}
+
+.header>ul>li{display: inline-block; margin-top: 40px; line-height: 36px;text-align: center;}
+.header>ul>li>a{color: white ; font-size: 38px; font-family:'배달의민족 연성'; }
+.header>ul>li>a:hover{color: black;background-color: #fac960;}
+
+.header>ul>li:first-child{ margin-left: 250px;}
+.header>ul>li:nth-child(2){ margin-left: 100px;}
+.header>ul>li:nth-child(3){margin-left: 100px;}
+.header>ul>li:last-child{margin-left: 100px;}
+
+p.box{margin-top: 30px; margin-left: 200px; width: 800px; height: 350px; background-color: rgba(255,255,255,0.3); }
+p.box:hover{background-color: rgba(255,255,255,0.5);}
+
+#wrap>div.bd>div.section>p.box>span{margin-top: 45px;color: transparent; font-size: 30px; font-family: '배달의민족 연성';line-height:260px; text-align: center; }
+
+p.box>span.spring{display:inline-block;margin-left: 35px; height:260px; width: 180px;background-image: url(img/spring.png);background-position: center; background-size: cover;}
+p.box>span.summer{display: inline-block; height: 260px; width: 180px; background-image: url(img/summer.png); background-size: cover; background-position: center; }
+
+p.box>span.autumn{display: inline-block; width: 180px; height: 260px; background-image: url(img/autumn.png); background-position: center; background-size: cover; }
+
+p.box>span.winter{display: inline-block; width: 180px; height: 260px; background-image: url(img/winter.png); background-position: center; background-size: cover;}
+
+span.spring>a{color: transparent;}
+span.summer>a{color: transparent;}
+span.autumn>a{color: transparent;}
+span.winter>a{color: transparent;}
+
+span.spring>a:hover{display: block;color: white; width: 180px; height: 260px; background-color: #a2006b;opacity: 0.3;}
+span.summer>a:hover{display: block;color: white; width: 180px; height: 260px; background-color: #00a25b ;opacity: 0.3;}
+span.autumn>a:hover{display: block;color: white; width: 180px; height: 260px; background-color: #a29800 ;opacity: 0.3;}
+span.winter>a:hover{display: block;color: white; width: 180px; height: 260px; background-color: #0091a2 ;opacity: 0.3;}
+
+div.footer>p{margin-top: 120px; margin-left: 450px; font-weight: 600; font-size: 18px; font-family: 'Aparajita';}
+
+
+
+
+
