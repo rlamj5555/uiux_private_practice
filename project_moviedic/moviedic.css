@@ -1,0 +1,29 @@
+@charset "utf-8"; 
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+span.logo{display: inline-block;width: 30px; height: 20px;}
+
+
+
+div.top>p.logo{width: 180px; height: 50px;}
+div.top{background-color: black;}
+div.top>p.logo{color: white; font-size: 23px; font-weight: 800; line-height: 50px; font-family:'Nunito'; }
+div.top>p.start{position: absolute; top: 15px; right: 50px; width: 80px; height:20px;font-weight: 800; line-height: 20px; text-align: center;border-radius: 8px; background-color: white;}
+
+div.cont{overflow-y: scroll; width: 100%; height:800px; text-align:  center;}
+h2{margin-top: 300px; margin-bottom: 20px;color: white; font-size: 48px; opacity: 1;}
+h3{margin-top: 30px; margin-bottom: 50px;color: white; font-size: 20px;font-weight: 600;}
+p.start_btn{display: inline-block;width: 180px; height: 50px;margin-top: 220px; font-size: 18px; line-height: 50px; text-align: center; background-color: mediumvioletred; border-radius: 30px;}
+p.start_btn>a{color: white; font-weight: 700;}
+
+div.frst{position: relative;width: 1500px; height: 1000px;background-image: url(./image/joy.jpg); background-size: cover; background-repeat: no-repeat;background-position: center; }
+div.sec{position: relative; width: 1500px; height: 1000px; background-image: url(image/getout.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;}
+div.thrd{position: relative; width: 1500px; height: 1000px; background-image: url(image/lalaland.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+span.filter_1{position:absolute; top: 0px; left: 0px; width:1500px; height: 1000px; background-color: black; opacity: 0.6;}
+span.filter_2{position: absolute; left: 0px; width: 1500px; height: 1000px; background-color: black; opacity: 0.6;}
+span.filter_3{position: absolute; left: 0px;; width: 1500px; height: 1000px; background-color: black; opacity: 0.6;}
+
+div.frst>h2{margin-top: 0; padding-top: 230px;}
+
+footer{padding: 10px;color: grey; font-size: 10px; background-color: black;}
