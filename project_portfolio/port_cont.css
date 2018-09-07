@@ -1,0 +1,6 @@
+@charset "utf-8"; 
+@import url(http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css);
+
+#wrap{font-family: '함초롬바탕';}
+div.tp_img>img{width: 100%; height: 500px;}
+
